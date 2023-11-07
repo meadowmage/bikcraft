@@ -1,0 +1,126 @@
+.introducao-bg{
+    background: #3f3e3e;
+    color: #ffffff;
+    height: 600px;
+}
+
+.introducao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.introducao-conteudo{
+    align-self: end;
+    padding-bottom: 300px;
+}
+
+.introducao h1 {
+    margin-bottom: 32px;
+    
+}
+
+.introducao p {
+    margin-bottom: 20px;
+    
+}
+
+
+
+.formulario-home{
+    background: #ffffff;
+    color: #111111;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    margin-bottom: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.formulario-home h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.form label{
+    display: block;
+    font: 600 1rem/1.5 "Poppins", sans-serif;
+    margin-bottom: 4px;  
+}
+
+.form .col-2 {
+    grid-column: span 2;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form textarea {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background: #f7f6f6;
+    border: 1px solid #ebe9e9 ;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form input[type=text]:focus,
+.form input[type=email]:focus,
+.form textarea:focus{
+    outline: none;
+    border-color: #58fa96;
+    background: #ffffff;
+    box-shadow: 0 0 0 1px #b9fdd3;
+
+}
+
+
+
+@media (max-width: 1200px){
+    .introducao-bg{
+        height: 1000px;
+    }
+    .introducao h1 {
+        font-size: 48px;
+    }
+
+    .introducao p{
+        font-size: 18px;
+    }
+
+  .form {  grid-template-columns: 1fr;
+  }
+.form .col-2 {
+    grid-column: 1;
+}
+
+}
+
+@media (max-width: 800px){
+    .introducao{
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .introducao-conteudo{
+        padding-bottom: 0px;
+    }
+    .introducao h1 {
+        padding-top: 20px;
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    
+}
