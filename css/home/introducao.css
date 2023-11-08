@@ -93,16 +93,10 @@
     .introducao-bg{
         height: 1000px;
     }
-    .introducao h1 {
-        font-size: 48px;
-    }
-
-    .introducao p{
-        font-size: 18px;
-    }
 
   .form {  grid-template-columns: 1fr;
   }
+  
 .form .col-2 {
     grid-column: 1;
 }
@@ -119,7 +113,6 @@
     }
     .introducao h1 {
         padding-top: 20px;
-        font-size: 32px;
         margin-bottom: 16px;
     }
     

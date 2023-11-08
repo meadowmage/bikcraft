@@ -8,10 +8,17 @@
 /* Home */
 
 @import url("./home/introducao.css");
+@import url("./home/rede-credenciada.css");
+@import url("./home/parceiros.css");
 
 /*Utilidades*/
 
 @import url("./utilidades/componentes.css");
+@import url("./utilidades/cores.css");
+
+/*Lista de Planos*/
+
+@import url("./planos/planos-lista.css");
 
 
 
